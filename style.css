@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Epilogue", sans-serif;
+}
+body{
+    max-width: 1440px;
+    background-color: var(--almost-white);
+    
+}
+:root{
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+p{
+    font-size: 18px;
+    color: var(--medium-gray);
+}
+h1{
+    color: var(--almost-black);
+}
+
+.nav-btn:focus, .btn-close, .accordion-item, .accordion-button, .dropdown-menu{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.accordion-button{
+    background-color: #fff !important;
+}
+.nav-item-mobile{
+    margin-left: 1.28rem;
+}
+.hero{
+    width: 76%;
+    margin-top: 4rem;
+}
+.hero-content{
+    width: 52%;
+}
+.image-hero-desktop{
+    width: 38%;
+}
+
+.hero-content1 h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-top: 5.8rem;
+}
+
+.cto-btn:hover{
+    background-color: var(--almost-white) !important;
+    color: var(--almost-black) !important;
+}
+
+@media (max-width: 768px){
+    .hero{
+        width: 100%;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content1 h1{
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+.brands img{
+    width: 68%;
+}
+    .cto-btn{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
